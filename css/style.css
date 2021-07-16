@@ -1,0 +1,633 @@
+/* ========================== 
+        google fonts 
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+/* ========================== 
+       Root variables
+============================ */
+:root{
+
+    /* ---fonts variable---- */
+    --mainFont :'Montserrat', sans-serif;
+    --fontBold:700;
+    --fontSemi:600;
+    --fontMedium:500;
+    --fontRegular:400;
+    --fontLight:300;
+    
+
+    /* ---color variable---- */
+
+
+
+    
+}
+
+
+/* ========================== 
+      Reset CSS
+============================ */
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+         flex: 0 0 auto;
+}
+
+
+
+
+
+
+/* ========================== 
+     Global CSS
+============================ */
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+html{
+    font-family: 62.5%;
+}
+
+
+body{
+    font-family:var(--mainFont);
+}
+
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+        Google fonts 
+============================ */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+
+/* ========================== 
+    variables
+============================ */
+
+
+
+:root{
+
+    /* ---fonts variable---- */
+    --mainFont :'Montserrat', sans-serif;
+    --fontBold:700;
+    --fontSemi:600;
+    --fontMedium:500;
+    --fontRegular:300;
+    --fontLight:200;
+    
+
+    /* ---color variable---- */
+    --bannerColor:#2D25A0;
+    --loginColor:#E02C6D;
+    --h4color:#18191F;
+    --pColor:#6C6C6C;
+
+
+
+    
+}
+
+
+/* ========================== 
+      Reset CSS
+============================ */
+
+
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+         flex: 0 0 auto;
+}
+
+
+
+
+
+/* ========================== 
+     Global CSS
+============================ */
+
+
+
+
+a,
+a:hover{
+     text-decoration: none;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+img{
+     max-width: 100%;
+}
+
+
+
+body{
+    font-family:var(--mainFont);
+}
+
+
+
+/* ========================== 
+     Reusable CSS
+============================ */
+
+
+
+.container{
+     max-width: 1160px;
+     margin: 0 auto;
+}
+
+
+.flex{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+
+
+.justify-content{
+     justify-content:space-between;
+}
+
+
+.align-item{
+     align-items: center;
+}
+
+
+
+
+.grid{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     place-items: center;
+     grid-gap: 30px;
+     
+     
+}
+
+ .col-1-3 {
+	width: 330px;
+	height: 474px;
+	text-align: center;
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.055);
+     border-radius: 5px;
+}
+
+
+.p-y{
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+}
+
+
+.heading-content{
+     text-transform: capitalize;
+     color: #2D25A0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-bottom: 30px;
+     font-size: 2rem;
+    
+}
+
+
+
+/* ========================== 
+    Banner section style
+============================ */
+
+
+#banner-section{
+     background-color: var(--bannerColor);
+     color: #fff;
+     height: 677px;
+     
+}
+
+#banner-section header{
+     padding: 20px 0;
+}
+
+
+#banner-section nav ul li a{
+     color: #fff;
+     display: inline-block;
+     padding: 1rem 1rem;
+     font-size: 1rem;
+}
+
+
+#banner-section .login {
+	
+	width: 123px;
+	height: 44px;
+	
+} 
+
+#banner-section .login a{
+     color: #fff;
+     background-color: var(--loginColor);
+     font-size: 1rem;
+     padding: 10px 20px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+    
+    
+}
+
+#banner-section .login a img{
+    margin-right: 0.3rem;
+    width: 20%;
+    
+}
+
+
+
+#banner-section .banner-content .btn-watch {
+     background-color: var(--loginColor);
+     display: flex;
+     align-items: center;
+     width: 168px;
+     height: 44px;
+     justify-content: center;
+     margin-top: 20px;
+     color: #fff;
+     overflow: hidden;
+     padding: 10px;
+     transition:0.5s;
+}
+
+#banner-section .banner-content .btn-watch:hover {
+
+   background-color: #ff1e00;
+   filter: invert(100%);
+   transform: scale(1.1);
+   transition:transform 0.5s ease ;
+}
+
+
+#banner-section .banner-content .btn-watch img {
+     margin-left: 10px;   
+     filter: invert(100%);
+}
+
+#banner-section .banner-content h2{
+     font-size: 64px;
+}
+
+#banner-section .banner-img {
+	width: 50%;
+}
+
+
+#banner-section .banner-img img {
+	width: 80%;
+}
+
+
+
+/* ========================== 
+    Banner section style End
+============================ */
+
+
+
+
+
+/* ========================== 
+     Player  section style Start
+============================ */
+
+
+
+#player-section{
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+     
+}
+
+#player-section .col-1-3 {
+	width: 330px;
+	height: 474px;
+	text-align: center;
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.055);
+     border-radius: 5px;
+}
+
+
+#player-section .player-details img{
+     width: 300px;
+     height: 256px;
+     object-fit: cover;
+     padding: 10px;
+     border-radius: 15px;
+}
+
+#player-section .player-info{
+    text-align: left;
+    padding: 20px;
+}
+
+#player-section .player-info h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:var(--h4color)
+}
+#player-section .player-info p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color:var(--pColor)
+}
+
+
+/* ========================== 
+     Player  section style End
+============================ */
+
+
+
+
+
+
+
+/* ========================== 
+     Top news section Start
+============================ */
+
+
+
+#top-news{
+     padding-top: 2rem;
+     padding-bottom: 4rem;
+}
+
+
+
+
+
+#top-news .news-content-img img {
+	width: 300px;
+	height: 256px;
+	object-fit: cover;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+
+
+#top-news .news-details .news-info{
+     display: flex;
+     justify-content: space-between;
+     padding: 0 25px;
+     margin-bottom: 20px;
+}
+ 
+#top-news .news-details .title{
+    background-color: #E02C6D;
+    padding: 10px 10px;
+    color: #fff;
+}
+#top-news .news-details .date{
+    background-color: #E02C6D;
+    padding: 10px 10px;
+    color: #fff;
+}
+
+#top-news .news-details h4{
+    text-align: left;
+    padding: 0px 25px;
+    color:var(--h4color);
+    margin-bottom: 10px;
+
+    
+}
+
+#top-news .news-details p{
+    color: var(--pColor);
+    padding: 0px 25px;
+    text-align: left;
+}
+
+
+/* ========================== 
+     Top news section End
+============================ */
+
+
+
+
+
+/* ========================== 
+     sponsor section style Start
+============================ */
+
+#sponsor-section{
+     padding-top: 4rem;
+     padding-bottom: 5rem;
+     background-color:#293B5F ;
+}
+
+
+#sponsor-section .sponsor-heading{
+     color: #fff;
+     text-transform: uppercase;
+}
+
+
+#sponsor-section .grid-content{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     place-items: center;
+     grid-gap: 30px;
+}
+
+
+#sponsor-section .grid-content img{
+     width: 200px;
+     height: 100px;
+     object-fit: cover;
+     
+}
+
+
+
+/* ========================== 
+     sponsor section style End
+============================ */
+
+
+
+
+
+/* ========================== 
+    Footer section style Start
+============================ */
+
+
+#footer-section {
+	padding-top: 2rem;
+	text-align: center;
+	padding-bottom: 4rem;
+}
+
+#footer-section .footer-img{
+     text-align: center;
+  }
+
+#footer-section .footer-img img{
+    width: 483px;
+    height: 110px;
+    padding: 20px;
+}
+
+
+#footer-section .social-links {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+#footer-section .social-links li {
+	margin: 0px 5px;
+}
+
+
+#footer-section .social-links  a {
+	display: inline-block;
+     width: 32px;
+     height: 32px;
+     margin-bottom: 1rem;
+}
+
+
+
+#footer-section .copyright  {
+	padding-bottom: 2rem;
+}
+
+
+
+/* ========================== 
+    Footer section style End
+============================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== 
+ Responsive  Media Queries
+============================ */
+
+
+@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1200px) {}
